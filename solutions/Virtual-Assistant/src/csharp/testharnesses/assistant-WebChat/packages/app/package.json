@@ -27,7 +27,8 @@
     "react-scripts": "2.1.2",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "simple-update-in": "^2.0.2"
+    "simple-update-in": "^2.0.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "rimraf": "^2.6.2"
@@ -38,6 +39,9 @@
     "clean": "rimraf build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
-    "test": "react-scripts test"
-  }
+    "test": "react-scripts test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
