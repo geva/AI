@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - restify > lodash:
+        patched: '2020-05-01T02:40:53.673Z'
+    - ms-rest-azure > async > lodash:
+        patched: '2020-05-01T02:40:53.673Z'
+    - restify > restify-errors > lodash:
+        patched: '2020-05-01T02:40:53.673Z'
+    - botbuilder > botframework-connector > nock > lodash:
+        patched: '2020-05-01T02:40:53.673Z'
+    - botbuilder-ai > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T02:40:53.673Z'
+    - ms-rest-azure > adal-node > async > lodash:
+        patched: '2020-05-01T02:40:53.673Z'
+    - botbuilder-ai > botbuilder > botframework-connector > nock > lodash:
+        patched: '2020-05-01T02:40:53.673Z'
+    - botbuilder-azure > botbuilder > botframework-connector > nock > lodash:
+        patched: '2020-05-01T02:40:53.673Z'
