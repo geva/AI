@@ -22,7 +22,7 @@
     "@babel/polyfill": "^7.2.5",
     "dotenv": "^6.2.0",
     "math-random": "^1.0.1",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.1",
     "restify": "^7.3.0",
     "serve-handler": "^5.0.7"
   },
